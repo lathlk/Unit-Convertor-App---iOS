@@ -289,7 +289,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFieldEditingChanged:forEvent:" destination="9pv-A4-QxB" eventType="editingChanged" id="nNF-QJ-MTm"/>
+                                    <action selector="txtFieldEditingChanged:forEvent:" destination="8rJ-Kc-sve" eventType="editingChanged" id="soY-QG-bee"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Fc-J3-Vaf">
@@ -299,7 +299,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFieldEditingChanged:forEvent:" destination="9pv-A4-QxB" eventType="editingChanged" id="jmj-AW-J60"/>
+                                    <action selector="txtFieldEditingChanged:forEvent:" destination="8rJ-Kc-sve" eventType="editingChanged" id="8Xo-hF-u3K"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HST-1b-pDP">
@@ -309,7 +309,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFieldEditingChanged:forEvent:" destination="9pv-A4-QxB" eventType="editingChanged" id="s1S-OL-W3g"/>
+                                    <action selector="txtFieldEditingChanged:forEvent:" destination="8rJ-Kc-sve" eventType="editingChanged" id="x06-zZ-YbP"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fahrenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbO-Un-IvK">

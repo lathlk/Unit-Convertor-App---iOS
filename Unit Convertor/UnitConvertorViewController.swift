@@ -32,15 +32,18 @@ class UnitConvertorViewController: UIViewController {
                     if let txtFieldTextAsDouble = Double(text){
                         switch sender.tag {
                         case 1...4:
-                            let weights = Weight.Convert(weight: txtFieldTextAsDouble, changed: getWeightType(tag: sender.tag))
+                            let weights = WeightService.Convert(weight: txtFieldTextAsDouble, changed: WeightService.getWeightType(tag: sender.tag))
                             var tags = [1,2,3,4]
                             tags.remove(at: sender.tag-1)
                             updateUI(values: weights, startTag: 1, tags: tags)
-                        case 5...9:
-                            print("click on tag 5...9")
-                        case 10...14:
+                        case 5...7:
+                            let temps = TemperatureService.Convert(temp: txtFieldTextAsDouble, changed: TemperatureService.getTempType(tag: sender.tag))
+                            var tags = [5,6,7]
+                            tags.remove(at: sender.tag-5)
+                            updateUI(values: temps, startTag: 5, tags: tags)
+                        case 8...11:
                             print("click on tag 10...14")
-                        case 15...19:
+                        case 12...15:
                             print("click on tag 15...19")
                         default:
                             print("Invalid tag")
@@ -53,24 +56,10 @@ class UnitConvertorViewController: UIViewController {
     
     // function: clear all the text fields
     func clearTextFields(){
-        for tag in 1...16 {
+        for tag in 1...15 {
             if let txtField = view.viewWithTag(tag) as? UITextField{
                 txtField.text = nil
             }
-        }
-    }
-    
-    // function: return the weight type respective to the Tag of field
-    func getWeightType(tag: Int) -> WeightTypes {
-        switch tag {
-        case 1:
-            return .gram
-        case 2:
-            return .kilogram
-        case 3:
-            return .pounds
-        default:
-            return .ounce
         }
     }
     
@@ -81,6 +70,12 @@ class UnitConvertorViewController: UIViewController {
                 for tag in tags {
                     if let txtField = view.viewWithTag(tag) as? UITextField{
                         txtField.text = String(values[tag-1])
+                    }
+                }
+            case 5:
+                for tag in tags {
+                    if let txtField = view.viewWithTag(tag) as? UITextField{
+                        txtField.text = String(values[tag-5])
                     }
                 }
             default:
