@@ -10,14 +10,14 @@ import Foundation
 
 class WeightService {
     static func Convert(weight: Double, changed: WeightTypes) -> Array<Double>{
-        let grams = toGram(weight, changed)
+        let grams = toGram(weight: weight, type: changed)
         let kilograms = gramToKilograms(gram: grams)
         let pounds = gramToPounds(gram: grams)
         let ounces = gramToOunces(gram: grams)
         return [grams, kilograms, pounds, ounces]
     }
     
-    class func toGram(_ weight: Double,_ type: WeightTypes) -> Double {
+    class func toGram(weight: Double, type: WeightTypes) -> Double {
         switch type {
         case .kilogram:
             return weight*1000

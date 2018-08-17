@@ -10,6 +10,7 @@
 		193B4B4721247ABA00191DA0 /* UnitConvertorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193B4B4621247ABA00191DA0 /* UnitConvertorViewController.swift */; };
 		197EDF282127191200788722 /* WeightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EDF272127191200788722 /* WeightService.swift */; };
 		197EDF2A21275A5100788722 /* TemperatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EDF2921275A5100788722 /* TemperatureService.swift */; };
+		197EDF2C21276D5A00788722 /* DistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EDF2B21276D5A00788722 /* DistanceService.swift */; };
 		19DC5892211CDEF20089C4ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5891211CDEF20089C4ED /* AppDelegate.swift */; };
 		19DC5894211CDEF20089C4ED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5893211CDEF20089C4ED /* FirstViewController.swift */; };
 		19DC5896211CDEF20089C4ED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5895211CDEF20089C4ED /* SecondViewController.swift */; };
@@ -22,6 +23,7 @@
 		193B4B4621247ABA00191DA0 /* UnitConvertorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConvertorViewController.swift; sourceTree = "<group>"; };
 		197EDF272127191200788722 /* WeightService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightService.swift; sourceTree = "<group>"; };
 		197EDF2921275A5100788722 /* TemperatureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureService.swift; sourceTree = "<group>"; };
+		197EDF2B21276D5A00788722 /* DistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceService.swift; sourceTree = "<group>"; };
 		19DC588E211CDEF20089C4ED /* Unit Convertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Convertor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DC5891211CDEF20089C4ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19DC5893211CDEF20089C4ED /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		197EDF262127185C00788722 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				197EDF2B21276D5A00788722 /* DistanceService.swift */,
 				197EDF272127191200788722 /* WeightService.swift */,
 				197EDF2921275A5100788722 /* TemperatureService.swift */,
 			);
@@ -160,6 +163,7 @@
 				197EDF2A21275A5100788722 /* TemperatureService.swift in Sources */,
 				19DC5894211CDEF20089C4ED /* FirstViewController.swift in Sources */,
 				193B4B4721247ABA00191DA0 /* UnitConvertorViewController.swift in Sources */,
+				197EDF2C21276D5A00788722 /* DistanceService.swift in Sources */,
 				197EDF282127191200788722 /* WeightService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

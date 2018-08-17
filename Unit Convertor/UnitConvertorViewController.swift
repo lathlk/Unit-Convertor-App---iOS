@@ -41,8 +41,11 @@ class UnitConvertorViewController: UIViewController {
                             var tags = [5,6,7]
                             tags.remove(at: sender.tag-5)
                             updateUI(values: temps, startTag: 5, tags: tags)
-                        case 8...11:
-                            print("click on tag 10...14")
+                        case 8...12:
+                            let distances = DistanceService.Convert(distance: txtFieldTextAsDouble, changed: DistanceService.getDistanceType(tag: sender.tag))
+                            var tags = [8,9,10,11,12]
+                            tags.remove(at: sender.tag-8)
+                            updateUI(values: distances, startTag: 8, tags: tags)
                         case 12...15:
                             print("click on tag 15...19")
                         default:
@@ -76,6 +79,12 @@ class UnitConvertorViewController: UIViewController {
                 for tag in tags {
                     if let txtField = view.viewWithTag(tag) as? UITextField{
                         txtField.text = String(values[tag-5])
+                    }
+                }
+            case 8:
+                for tag in tags {
+                    if let txtField = view.viewWithTag(tag) as? UITextField{
+                        txtField.text = String(values[tag-8])
                     }
                 }
             default:
