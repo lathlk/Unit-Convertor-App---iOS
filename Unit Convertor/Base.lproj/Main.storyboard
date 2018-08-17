@@ -31,7 +31,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFieldEditingChanged:forEvent:" destination="9pv-A4-QxB" eventType="editingChanged" id="1Lv-B5-WBW"/>
+                                    <action selector="txtFieldEditingChanged:forEvent:" destination="6fk-1z-LXW" eventType="editingChanged" id="sU3-sL-Ar5"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B2R-5F-vuf">
@@ -41,7 +41,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFieldEditingChanged:forEvent:" destination="9pv-A4-QxB" eventType="editingChanged" id="jOU-qw-PF2"/>
+                                    <action selector="txtFieldEditingChanged:forEvent:" destination="6fk-1z-LXW" eventType="editingChanged" id="bA8-PD-QvL"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cTC-Rt-2B6">
@@ -51,7 +51,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFieldEditingChanged:forEvent:" destination="9pv-A4-QxB" eventType="editingChanged" id="d8a-jI-joq"/>
+                                    <action selector="txtFieldEditingChanged:forEvent:" destination="6fk-1z-LXW" eventType="editingChanged" id="cMp-dY-Nps"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feet per minute" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUp-dW-os4">
@@ -75,7 +75,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="txtFieldEditingChanged:forEvent:" destination="9pv-A4-QxB" eventType="editingChanged" id="pER-J4-geC"/>
+                                    <action selector="txtFieldEditingChanged:forEvent:" destination="6fk-1z-LXW" eventType="editingChanged" id="gHa-Jo-KVD"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Miles per hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwy-MB-0LP">

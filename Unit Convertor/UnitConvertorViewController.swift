@@ -46,8 +46,11 @@ class UnitConvertorViewController: UIViewController {
                             var tags = [8,9,10,11,12]
                             tags.remove(at: sender.tag-8)
                             updateUI(values: distances, startTag: 8, tags: tags)
-                        case 12...15:
-                            print("click on tag 15...19")
+                        case 13...16:
+                            let speeds = SpeedService.Convert(speed: txtFieldTextAsDouble, changed: SpeedService.getSpeedType(tag: sender.tag))
+                            var tags = [13,14,15,16]
+                            tags.remove(at: sender.tag-13)
+                            updateUI(values: speeds, startTag: 13, tags: tags)
                         default:
                             print("Invalid tag")
                         }
@@ -85,6 +88,12 @@ class UnitConvertorViewController: UIViewController {
                 for tag in tags {
                     if let txtField = view.viewWithTag(tag) as? UITextField{
                         txtField.text = String(values[tag-8])
+                    }
+                }
+            case 13:
+                for tag in tags {
+                    if let txtField = view.viewWithTag(tag) as? UITextField{
+                        txtField.text = String(values[tag-13])
                     }
                 }
             default:
