@@ -106,9 +106,6 @@
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <navigationItem key="navigationItem" title="Weight" id="gAH-eg-Wgs"/>
-                    <connections>
-                        <outlet property="txtGram" destination="5Fo-Sh-bdc" id="tcd-O3-2Fy"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
