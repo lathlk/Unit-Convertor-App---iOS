@@ -13,12 +13,13 @@ class UnitConvertorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Do any additional setup after loading the view.
+        let Tap : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DismissKeyboard))
+        
+        view.addGestureRecognizer(Tap)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func txtFieldEditingChanged(_ sender: UITextField, forEvent event: UIEvent) {
@@ -50,6 +51,7 @@ class UnitConvertorViewController: UIViewController {
         }
     }
     
+    // function: clear all the text fields
     func clearTextFields(){
         for tag in 1...16 {
             if let txtField = view.viewWithTag(tag) as? UITextField{
@@ -58,6 +60,7 @@ class UnitConvertorViewController: UIViewController {
         }
     }
     
+    // function: return the weight type respective to the Tag of field
     func getWeightType(tag: Int) -> WeightTypes {
         switch tag {
         case 1:
@@ -71,6 +74,7 @@ class UnitConvertorViewController: UIViewController {
         }
     }
     
+    // function: update all the text fields with converted values
     func updateUI(values: Array<Double>, startTag: Int, tags: Array<Int>){
         switch startTag {
             case 1:
@@ -82,5 +86,10 @@ class UnitConvertorViewController: UIViewController {
             default:
                 print("Error")
             }
+    }
+    
+    // function to hide keyboard
+    @objc func DismissKeyboard(){
+        view.endEditing(true)
     }
 }
