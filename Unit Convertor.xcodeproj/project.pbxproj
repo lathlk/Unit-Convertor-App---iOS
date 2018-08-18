@@ -13,8 +13,6 @@
 		197EDF2C21276D5A00788722 /* DistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EDF2B21276D5A00788722 /* DistanceService.swift */; };
 		197EDF2E2127765200788722 /* SpeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EDF2D2127765200788722 /* SpeedService.swift */; };
 		19DC5892211CDEF20089C4ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5891211CDEF20089C4ED /* AppDelegate.swift */; };
-		19DC5894211CDEF20089C4ED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5893211CDEF20089C4ED /* FirstViewController.swift */; };
-		19DC5896211CDEF20089C4ED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC5895211CDEF20089C4ED /* SecondViewController.swift */; };
 		19DC5899211CDEF20089C4ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DC5897211CDEF20089C4ED /* Main.storyboard */; };
 		19DC589B211CDEF30089C4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DC589A211CDEF30089C4ED /* Assets.xcassets */; };
 		19DC589E211CDEF30089C4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DC589C211CDEF30089C4ED /* LaunchScreen.storyboard */; };
@@ -28,8 +26,6 @@
 		197EDF2D2127765200788722 /* SpeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedService.swift; sourceTree = "<group>"; };
 		19DC588E211CDEF20089C4ED /* Unit Convertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Convertor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DC5891211CDEF20089C4ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19DC5893211CDEF20089C4ED /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		19DC5895211CDEF20089C4ED /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		19DC5898211CDEF20089C4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19DC589A211CDEF30089C4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19DC589D211CDEF30089C4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,8 +75,6 @@
 			children = (
 				197EDF262127185C00788722 /* Services */,
 				19DC5891211CDEF20089C4ED /* AppDelegate.swift */,
-				19DC5893211CDEF20089C4ED /* FirstViewController.swift */,
-				19DC5895211CDEF20089C4ED /* SecondViewController.swift */,
 				19DC5897211CDEF20089C4ED /* Main.storyboard */,
 				193B4B4621247ABA00191DA0 /* UnitConvertorViewController.swift */,
 				19DC589A211CDEF30089C4ED /* Assets.xcassets */,
@@ -161,10 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19DC5896211CDEF20089C4ED /* SecondViewController.swift in Sources */,
 				19DC5892211CDEF20089C4ED /* AppDelegate.swift in Sources */,
 				197EDF2A21275A5100788722 /* TemperatureService.swift in Sources */,
-				19DC5894211CDEF20089C4ED /* FirstViewController.swift in Sources */,
 				193B4B4721247ABA00191DA0 /* UnitConvertorViewController.swift in Sources */,
 				197EDF2C21276D5A00788722 /* DistanceService.swift in Sources */,
 				197EDF282127191200788722 /* WeightService.swift in Sources */,
